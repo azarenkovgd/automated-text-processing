@@ -1,0 +1,602 @@
+[
+  {
+    "Name": "Bash",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/d/d8/Bash.png/revision/latest?cb=20181016205628",
+    "Rarity": "Starter",
+    "Type": "Attack",
+    "Energy": "2",
+    "Description": "Deal 8(10) damage. Apply 2(3) Vulnerable."
+  },
+  {
+    "Name": "Defend",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/7/7d/Defend_R.png/revision/latest?cb=20181016205732",
+    "Rarity": "Starter",
+    "Type": "Skill",
+    "Energy": "1",
+    "Description": "Gain 5(8) Block."
+  },
+  {
+    "Name": "Strike",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/0/06/Strike_R.png/revision/latest?cb=20181016211045",
+    "Rarity": "Starter",
+    "Type": "Attack",
+    "Energy": "1",
+    "Description": "Deal 6(9) damage."
+  },
+  {
+    "Name": "Anger",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/3/3f/Anger.png/revision/latest?cb=20181016205628",
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Energy": "0",
+    "Description": "Deal 6(8) damage. Add a copy of this card to your discard pile."
+  },
+  {
+    "Name": "Armaments",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/c/c3/Armaments.png/revision/latest?cb=20181016205628",
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Energy": "1",
+    "Description": "Gain 5 Block. Upgrade a(ALL) card(s) in your hand for the rest of combat."
+  },
+  {
+    "Name": "Body Slam",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/1/10/BodySlam.png/revision/latest?cb=20181016205629",
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Energy": "1(0)",
+    "Description": "Deal damage equal to your current Block."
+  },
+  {
+    "Name": "Clash",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/f/fb/Clash.png/revision/latest?cb=20181016205731",
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Energy": "0",
+    "Description": "Can only be played if every card in your hand is an Attack. Deal 14(18) damage."
+  },
+  {
+    "Name": "Cleave",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/c/c8/Cleave.png/revision/latest?cb=20181016205731",
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Energy": "1",
+    "Description": "Deal 8(11) damage to ALL enemies."
+  },
+  {
+    "Name": "Clothesline",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/8/8f/Clothesline.png/revision/latest?cb=20181016205731",
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Energy": "2",
+    "Description": "Deal 12(14) damage. Apply 2(3) Weak."
+  },
+  {
+    "Name": "Flex",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/5/5a/Flex.png/revision/latest?cb=20181016205957",
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Energy": "0",
+    "Description": "Gain 2(4) Strength. At the end of your turn, lose 2(4) Strength."
+  },
+  {
+    "Name": "Havoc",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/5/5b/Havoc.png/revision/latest?cb=20181016205957",
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Energy": "1(0)",
+    "Description": "Play the top card of your draw pile and Exhaust it."
+  },
+  {
+    "Name": "Headbutt",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/1/1a/Headbutt.png/revision/latest?cb=20181016205957",
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Energy": "1",
+    "Description": "Deal 9(12) damage. Place a card from your discard pile on top of your draw pile."
+  },
+  {
+    "Name": "Heavy Blade",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/5/58/HeavyBlade.png/revision/latest?cb=20181016205957",
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Energy": "2",
+    "Description": "Deal 14 damage. Strength affects Heavy Blade 3(5) times."
+  },
+  {
+    "Name": "Iron Wave",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/9/9e/IronWave.png/revision/latest?cb=20181016210817",
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Energy": "1",
+    "Description": "Gain 5(7) Block. Deal 5(7) damage."
+  },
+  {
+    "Name": "Perfected Strike",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/7/77/PerfectedStrike.png/revision/latest?cb=20181016210818",
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Energy": "2",
+    "Description": "Deal 6 damage. Deals an additional 2(3) damage for ALL of your cards containing \"Strike\"."
+  },
+  {
+    "Name": "Pommel Strike",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/3/35/PommelStrike.png/revision/latest?cb=20181016210950",
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Energy": "1",
+    "Description": "Deal 9(10) damage. Draw 1(2) card(s)."
+  },
+  {
+    "Name": "Shrug it Off",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/4/4a/ShrugItOff.png/revision/latest?cb=20181016211044",
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Energy": "1",
+    "Description": "Gain 8(11) Block. Draw 1 card."
+  },
+  {
+    "Name": "Sword Boomerang",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/1/18/SwordBoomerang.png/revision/latest?cb=20181016211045",
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Energy": "1",
+    "Description": "Deal 3 damage to a random enemy 3(4) times."
+  },
+  {
+    "Name": "Thunderclap",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/8/8a/Thunderclap.png/revision/latest?cb=20181016211045",
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Energy": "1",
+    "Description": "Deal 4(7) damage and apply 1 Vulnerable to ALL enemies."
+  },
+  {
+    "Name": "True Grit",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/4/46/TrueGrit.png/revision/latest?cb=20181016211045",
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Energy": "1",
+    "Description": "Gain 7(9) Block. Exhaust a random(not random) card from your hand."
+  },
+  {
+    "Name": "Twin Strike",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/1/18/TwinStrike.png/revision/latest?cb=20181016211122",
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Energy": "1",
+    "Description": "Deal 5(7) damage twice."
+  },
+  {
+    "Name": "Warcry",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/9/9a/Warcry.png/revision/latest?cb=20181016211122",
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Energy": "0",
+    "Description": "Draw 1(2) card(s). Place a card from your hand on top of your draw pile. Exhaust."
+  },
+  {
+    "Name": "Wild Strike",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/4/44/WildStrike.png/revision/latest?cb=20181016211122",
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Energy": "1",
+    "Description": "Deal 12(17) damage. Shuffle a Wound into your draw pile."
+  },
+  {
+    "Name": "Battle Trance",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/3/3a/BattleTrance.png/revision/latest?cb=20181016205629",
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Energy": "0",
+    "Description": "Draw 3(4) cards. You cannot draw additional cards this turn."
+  },
+  {
+    "Name": "Blood for Blood",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/c/c8/BloodforBlood.png/revision/latest?cb=20181016205629",
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Energy": "4(3)",
+    "Description": "Costs 1 less energy for each time you lose HP in combat. Deal 18(22) damage."
+  },
+  {
+    "Name": "Bloodletting",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/f/ff/Bloodletting.png/revision/latest?cb=20210408070953",
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Energy": "0",
+    "Description": "Lose 3 HP. Gain 2(3) Energy."
+  },
+  {
+    "Name": "Burning Pact",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/9/98/BurningPact.png/revision/latest?cb=20181016205731",
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Energy": "1",
+    "Description": "Exhaust 1 card. Draw 2(3) cards."
+  },
+  {
+    "Name": "Carnage",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/4/4f/Carnage.png/revision/latest?cb=20181016205731",
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Energy": "2",
+    "Description": "Ethereal. Deal 20(28) damage."
+  },
+  {
+    "Name": "Combust",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/e/e7/Combust.png/revision/latest?cb=20181016205732",
+    "Rarity": "Uncommon",
+    "Type": "Power",
+    "Energy": "1",
+    "Description": "At the end of your turn, lose 1 HP and deal 5(7) damage to ALL enemies."
+  },
+  {
+    "Name": "Dark Embrace",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/a/a6/DarkEmbrace.png/revision/latest?cb=20200128065538",
+    "Rarity": "Uncommon",
+    "Type": "Power",
+    "Energy": "2(1)",
+    "Description": "Whenever a card is Exhausted, draw 1 card."
+  },
+  {
+    "Name": "Disarm",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/2/29/Disarm.png/revision/latest?cb=20181016205819",
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Energy": "1",
+    "Description": "Enemy loses 2(3) Strength. Exhaust."
+  },
+  {
+    "Name": "Dropkick",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/0/02/Dropkick.png/revision/latest?cb=20181016205819",
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Energy": "1",
+    "Description": "Deal 5(8) damage. If the enemy is Vulnerable, gain 1 energy and draw 1 card."
+  },
+  {
+    "Name": "Dual Wield",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/6/61/DualWield.png/revision/latest?cb=20181016205819",
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Energy": "1",
+    "Description": "Create a(2) copy(s) of an Attack or Power card in your hand."
+  },
+  {
+    "Name": "Entrench",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/a/a2/Entrench.png/revision/latest?cb=20181016205819",
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Energy": "2(1)",
+    "Description": "Double your current Block."
+  },
+  {
+    "Name": "Evolve",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/5/5d/Evolve.png/revision/latest?cb=20181016205819",
+    "Rarity": "Uncommon",
+    "Type": "Power",
+    "Energy": "1",
+    "Description": "Whenever you draw a Status card, draw 1(2) card(s)."
+  },
+  {
+    "Name": "Feel No Pain",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/4/41/FeelNoPain.png/revision/latest?cb=20181016205820",
+    "Rarity": "Uncommon",
+    "Type": "Power",
+    "Energy": "1",
+    "Description": "Whenever a card is Exhausted, gain 3(4) Block."
+  },
+  {
+    "Name": "Fire Breathing",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/6/60/FireBreathing.png/revision/latest?cb=20200121024142",
+    "Rarity": "Uncommon",
+    "Type": "Power",
+    "Energy": "1",
+    "Description": "Whenever you draw a Status or Curse card, deal 6(10) damage to all enemies."
+  },
+  {
+    "Name": "Flame Barrier",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/c/cc/FlameBarrier.png/revision/latest?cb=20181016205957",
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Energy": "2",
+    "Description": "Gain 12(16) Block. Whenever you are attacked this turn, deal 4(6) damage to the attacker."
+  },
+  {
+    "Name": "Ghostly Armor",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/7/71/GhostlyArmor.png/revision/latest?cb=20181016205957",
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Energy": "1",
+    "Description": "Ethereal. Gain 10(13) Block."
+  },
+  {
+    "Name": "Hemokinesis",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/1/17/Hemokinesis.png/revision/latest?cb=20210408071312",
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Energy": "1",
+    "Description": "Lose 2 HP. Deal 15(20) damage."
+  },
+  {
+    "Name": "Infernal Blade",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/0/0b/InfernalBlade.png/revision/latest?cb=20181016210817",
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Energy": "1(0)",
+    "Description": "Add a random Attack to your hand. It costs 0 this turn. Exhaust."
+  },
+  {
+    "Name": "Inflame",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/0/02/Inflame.png/revision/latest?cb=20181016210817",
+    "Rarity": "Uncommon",
+    "Type": "Power",
+    "Energy": "1",
+    "Description": "Gain 2(3) Strength."
+  },
+  {
+    "Name": "Intimidate",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/7/72/Intimidate.png/revision/latest?cb=20181016210817",
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Energy": "0",
+    "Description": "Apply 1(2) Weak to ALL enemies. Exhaust."
+  },
+  {
+    "Name": "Metallicize",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/c/cd/Metallicize.png/revision/latest?cb=20181016210818",
+    "Rarity": "Uncommon",
+    "Type": "Power",
+    "Energy": "1",
+    "Description": "At the end of your turn, gain 3(4) Block."
+  },
+  {
+    "Name": "Power Through",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/4/4f/PowerThrough.png/revision/latest?cb=20181016210950",
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Energy": "1",
+    "Description": "Add 2 Wounds to your hand. Gain 15(20) Block."
+  },
+  {
+    "Name": "Pummel",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/e/ec/Pummel.png/revision/latest?cb=20181016210951",
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Energy": "1",
+    "Description": "Deal 2 damage 4(5) times. Exhaust."
+  },
+  {
+    "Name": "Rage",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/2/27/Rage.png/revision/latest?cb=20181016210951",
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Energy": "0",
+    "Description": "Whenever you play an Attack this turn, gain 3(5) Block."
+  },
+  {
+    "Name": "Rampage",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/e/e4/Rampage.png/revision/latest?cb=20181016210951",
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Energy": "1",
+    "Description": "Deal 8 damage. Increase this card's damage by 5(8) this combat."
+  },
+  {
+    "Name": "Reckless Charge",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/f/f7/RecklessCharge.png/revision/latest?cb=20181016210951",
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Energy": "0",
+    "Description": "Deal 7(10) damage. Shuffle a Dazed into your draw pile."
+  },
+  {
+    "Name": "Rupture",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/3/38/Rupture.png/revision/latest?cb=20210408071643",
+    "Rarity": "Uncommon",
+    "Type": "Power",
+    "Energy": "1",
+    "Description": "Whenever you lose HP from a card, gain 1(2) Strength."
+  },
+  {
+    "Name": "Searing Blow",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/d/dc/SearingBlow.png/revision/latest?cb=20181016210951",
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Energy": "2",
+    "Description": "Deal 12(16) damage. Can be upgraded any number of times."
+  },
+  {
+    "Name": "Second Wind",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/b/ba/SecondWind.png/revision/latest?cb=20181016210952",
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Energy": "1",
+    "Description": "Exhaust all non-Attack cards in your hand and gain 5(7) Block for each Exhausted card."
+  },
+  {
+    "Name": "Seeing Red",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/c/c2/SeeingRed.png/revision/latest?cb=20181016211044",
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Energy": "1(0)",
+    "Description": "Gain 2 energy. Exhaust."
+  },
+  {
+    "Name": "Sentinel",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/9/91/Sentinel.png/revision/latest?cb=20181016211044",
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Energy": "1",
+    "Description": "Gain 5(8) Block. If this card is Exhausted, gain 2(3) energy."
+  },
+  {
+    "Name": "Sever Soul",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/1/11/SeverSoul.png/revision/latest?cb=20181016211044",
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Energy": "2",
+    "Description": "Exhaust all non-Attack cards in your hand. Deal 16(22) damage."
+  },
+  {
+    "Name": "Shockwave",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/6/65/Shockwave.png/revision/latest?cb=20181016211044",
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Energy": "2",
+    "Description": "Apply 3(5) Weak and Vulnerable to ALL enemies. Exhaust."
+  },
+  {
+    "Name": "Spot Weakness",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/5/56/SpotWeakness.png/revision/latest?cb=20181016211045",
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Energy": "1",
+    "Description": "If the enemy intends to attack, gain 3(4) Strength."
+  },
+  {
+    "Name": "Uppercut",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/2/27/Uppercut.png/revision/latest?cb=20181016211122",
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Energy": "2",
+    "Description": "Deal 13 damage. Apply 1(2) Weak and 1(2) Vulnerable."
+  },
+  {
+    "Name": "Whirlwind",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/e/e0/Whirlwind.png/revision/latest?cb=20181016211122",
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Energy": "X",
+    "Description": "Deal 5(8) damage to ALL enemies X times."
+  },
+  {
+    "Name": "Barricade",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/1/12/Barricade.png/revision/latest?cb=20181016205628",
+    "Rarity": "Rare",
+    "Type": "Power",
+    "Energy": "3(2)",
+    "Description": "Block is not removed at the start of your turn."
+  },
+  {
+    "Name": "Berserk",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/4/44/Berserk.png/revision/latest?cb=20190829162548",
+    "Rarity": "Rare",
+    "Type": "Power",
+    "Energy": "0",
+    "Description": "Gain 2(1) Vulnerable. At the start of your turn, gain 1 Energy."
+  },
+  {
+    "Name": "Bludgeon",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/9/96/Bludgeon.png/revision/latest?cb=20181016205629",
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Energy": "3",
+    "Description": "Deal 32(42) damage."
+  },
+  {
+    "Name": "Brutality",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/b/ba/Brutality.png/revision/latest?cb=20181016205731",
+    "Rarity": "Rare",
+    "Type": "Power",
+    "Energy": "0",
+    "Description": "(Innate.) At the start of your turn, lose 1 HP and draw 1 card."
+  },
+  {
+    "Name": "Corruption",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/7/75/Corruption.png/revision/latest?cb=20200128065608",
+    "Rarity": "Rare",
+    "Type": "Power",
+    "Energy": "3(2)",
+    "Description": "Skills cost 0. Whenever you play a Skill, Exhaust it."
+  },
+  {
+    "Name": "Demon Form",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/a/a1/DemonForm.png/revision/latest?cb=20181016205819",
+    "Rarity": "Rare",
+    "Type": "Power",
+    "Energy": "3",
+    "Description": "At the start of each turn, gain 2(3) Strength."
+  },
+  {
+    "Name": "Double Tap",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/8/84/DoubleTap.png/revision/latest?cb=20181016205819",
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Energy": "1",
+    "Description": "This turn, your next (2) Attack(s) is(are) played twice."
+  },
+  {
+    "Name": "Exhume",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/1/1b/Exhume.png/revision/latest?cb=20181016205820",
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Energy": "1(0)",
+    "Description": "Put a card from your Exhaust pile into your hand. Exhaust."
+  },
+  {
+    "Name": "Feed",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/4/44/Feed.png/revision/latest?cb=20200121024417",
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Energy": "1",
+    "Description": "Deal 10(12) damage. If this kills a non-minion enemy, gain 3(4) permanent Max HP. Exhaust."
+  },
+  {
+    "Name": "Fiend Fire",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/0/0a/FiendFire.png/revision/latest?cb=20181016205956",
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Energy": "2",
+    "Description": "Exhaust all cards in your hand. Deal 7(10) damage for each Exhausted card. Exhaust."
+  },
+  {
+    "Name": "Immolate",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/5/5f/Immolate.png/revision/latest?cb=20181016205958",
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Energy": "2",
+    "Description": "Deal 21(28) damage to ALL enemies. Add a Burn into your discard pile."
+  },
+  {
+    "Name": "Impervious",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/e/e3/Impervious.png/revision/latest?cb=20181016210816",
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Energy": "2",
+    "Description": "Gain 30(40) Block. Exhaust."
+  },
+  {
+    "Name": "Juggernaut",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/0/07/Juggernaut.png/revision/latest?cb=20181016210817",
+    "Rarity": "Rare",
+    "Type": "Power",
+    "Energy": "2",
+    "Description": "Whenever you gain Block, deal 5(7) damage to a random enemy."
+  },
+  {
+    "Name": "Limit Break",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/8/8c/LimitBreak.png/revision/latest?cb=20181016210818",
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Energy": "1",
+    "Description": "Double your Strength. Exhaust(Don't Exhaust if Upgraded)."
+  },
+  {
+    "Name": "Offering",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/4/47/Offering.png/revision/latest?cb=20181016210818",
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Energy": "0",
+    "Description": "Lose 6 HP. Gain 2 energy. Draw 3(5) cards. Exhaust."
+  },
+  {
+    "Name": "Reaper",
+    "Picture": "https://static.wikia.nocookie.net/slay-the-spire/images/6/6a/Reaper.png/revision/latest?cb=20181016210951",
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Energy": "2",
+    "Description": "Deal 4(5) damage to ALL enemies. Heal HP equal to unblocked damage. Exhaust."
+  }
+]
