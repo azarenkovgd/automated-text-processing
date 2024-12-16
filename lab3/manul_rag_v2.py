@@ -80,6 +80,24 @@ def send_question_to_model(query: str) -> str:
     return answer
 
 
+def reformulate_for_rag_search(query: str) -> str:
+    logging.info("Reformulating...")
+
+    response = ollama.chat(model='llama3.1:latest', messages=[
+        {
+            "role": "system", "content": '''
+            You are reformulating the user query for search over some vector database. Remove redundant words
+            that bring no meaning etc.
+            RETURN SHORT MODIFIED USER QUERY THAT WILL BE FED TO ANOTHER MODEL. DO NOT ANSWER THE QUESTION.
+            '''
+        },
+        {
+            "role": "user", "content": query
+        }])
+    answer = response["message"]["content"]
+    return answer
+
+
 def send_question_to_model_with_context(query: str, top_entries: List[Dict[str, Any]]) -> str:
     context_lines = "\n".join([f"piece{i + 1}: {entry['data']}" for i, entry in enumerate(top_entries)])
 
@@ -106,7 +124,9 @@ def send_question_to_model_with_context(query: str, top_entries: List[Dict[str, 
 def print_response(user_query: str, dataset: list[dict]) -> None:
     faiss_index = create_faiss_index(dataset)
 
-    top_matches = search_in_dataset(user_query, faiss_index, dataset)
+    reformulated_user_query = reformulate_for_rag_search(user_query)
+
+    top_matches = search_in_dataset(reformulated_user_query, faiss_index, dataset)
 
     response = send_question_to_model_with_context(user_query, top_matches)
 
@@ -127,7 +147,7 @@ def main():
     with open('../lab2/data/documentation.json', 'r', encoding="utf-8") as file:
         dataset = json.load(file)
 
-    print_response("How to create async handler of some command, using python-telegram-bot", dataset)
+    print_response("How to respond with a web app?", dataset)
 
 
 if __name__ == '__main__':
